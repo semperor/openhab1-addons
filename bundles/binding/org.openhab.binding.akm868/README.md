@@ -98,7 +98,7 @@ then
   var String packetValid = buffer.get(4)	
 
   if (packetValid.contains("OK")) {
-    postUpdate(Presence_AKM1_LastUpdate, new DateTimeType())
+    Presence_AKM1_LastUpdate.postUpdate(new DateTimeType())
     Presence_AKM.sendCommand("ON") 
     switch (action) {
       case '0' : Presence_AKM1_Action.sendCommand("Ping")
