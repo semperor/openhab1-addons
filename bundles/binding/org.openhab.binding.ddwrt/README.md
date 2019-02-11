@@ -44,11 +44,12 @@ Where `<key>` may take any of these values:
 
 ## Examples
 
-    String DEVICE_NAME {ddwrt="routertype"}
-    Switch WIFI_24     {ddwrt="wlan24"}
-    Switch WIFI_50     {ddwrt="wlan50"}
-    Switch WIFI_GUEST  {ddwrt="wlanguest"}
-
+```
+String DEVICE_NAME {ddwrt="routertype"}
+Switch WIFI_24     {ddwrt="wlan24"}
+Switch WIFI_50     {ddwrt="wlan50"}
+Switch WIFI_GUEST  {ddwrt="wlanguest"}
+```
 
 ## Notes
 
